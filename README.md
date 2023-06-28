@@ -34,3 +34,14 @@ Um banco de dados é um sistema organizado de armazenamento e gerenciamento de d
 
 ## Defina o conceito de atributo
 Um atributo é uma característica específica ou propriedade de uma entidade ou objeto armazenado em uma tabela. Também é conhecido como campo ou coluna. Os atributos representam as informações individuais que são armazenadas para cada instância de uma entidade.
+
+##SQL Movies DB
+## **Explique o conceito de normalização e por que ele é usado**
+A normalização tem como objetivo principal eliminar anomalias e redundâncias nos dados, reduzindo a duplicação de informações e melhorando a eficiência das operações de consulta e manipulação dos dados. Ela é baseada em uma série de regras, conhecidas como formas normais, que definem critérios para a organização dos dados em tabelas.
+As formas normais mais comumente utilizadas são:
+
+**1ª** Forma Normal (1NF): Nessa forma normal, os dados são atomicamente indivisíveis, ou seja, não devem ser divididos em partes menores. Cada valor em uma tabela deve ser atômico, e não deve conter múltiplos valores.
+
+**2ª** Forma Normal (2NF): Nessa forma normal, os dados devem estar na 1NF e, adicionalmente, não deve haver dependência parcial dos atributos não chave em relação à chave primária. Isso significa que todos os atributos não chave de uma tabela devem depender completamente da chave primária.
+
+**3ª** Forma Normal (3NF): Nessa forma normal, os dados devem estar na 2NF e, além disso, não deve haver dependência transitiva entre os atributos não chave. Isso significa que nenhum atributo não chave deve depender de outro atributo não chave.
